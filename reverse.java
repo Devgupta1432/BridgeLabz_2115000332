@@ -1,29 +1,16 @@
-import java.util.Scanner;
-
-public class reverse {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-
-        String reversed = reverse(input);
-
-        System.out.println("Reversed string: " + reversed);
-
-        scanner.close();
-    }
-
+public class ReverseString {
     public static String reverse(String str) {
-        StringBuilder reversedStr = new StringBuilder();
-
+        String reversed = ""; 
         for (int i = str.length() - 1; i >= 0; i--) {
-            reversedStr.append(str.charAt(i));
+            reversed += str.charAt(i); 
         }
 
-        return reversedStr.toString();
+        return reversed;
+    }
+
+    public static void main(String[] args) {
+        String str = "hello";
+        System.out.println("Original: " + str);
+        System.out.println("Reversed: " + reverse(str));
     }
 }
-
-
