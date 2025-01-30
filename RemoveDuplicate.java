@@ -1,33 +1,28 @@
-import java.util.Scanner;
-
-public class RemoveDuplicate {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-
-        String result = removeDuplicates(input);
-
-        System.out.println("String after removing duplicates: " + result);
-
-        scanner.close();
-    }
-
+public class RemoveDuplicates {
     public static String removeDuplicates(String str) {
-        StringBuilder uniqueStr = new StringBuilder();
-        boolean[] seen = new boolean[256];  // Array to track seen characters
+        String result = "";
 
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (!seen[ch]) {
-                seen[ch] = true;
-                uniqueStr.append(ch);
+            char currentChar = str.charAt(i);
+            boolean isDuplicate = false;
+
+            for (int j = 0; j < result.length(); j++) {
+                if (result.charAt(j) == currentChar) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate) {
+                result += currentChar;
             }
         }
+        return result;
+    }
 
-        return uniqueStr.toString();
+    public static void main(String[] args) {
+        String str = "programming";
+        System.out.println("Original: " + str);
+        System.out.println("Without Duplicates: " + removeDuplicates(str));
     }
 }
-
