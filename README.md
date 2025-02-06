@@ -13,3 +13,7 @@ Feature 30/01/25 - Object Oriented Programming Fundamentals. --> Handling dates 
 Feature 02/02/25 - Java Constructors , Instance vs Class Variable , Access MOdifiers Concepts --> Constructors in Java are special methods used to initialize objects. This feature includes topics like default constructors, parameterized constructors, constructor chaining, instance vs. class variables (static variables), and access modifiers (public, private, protected) that control access to classes, constructors, methods, and variables.
 
 Feature 04/02/25 - This, static, final key words and instanceof operator --> The this keyword refers to the current object, static makes variables/methods shared across all instances, final prevents modification, and instanceof checks an object's type at runtime. These features enhance clarity, reusability, and security in Java.
+
+Feature 06/02/25 - Object modelling and class diagram 
+
+
