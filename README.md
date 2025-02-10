@@ -17,3 +17,5 @@ Feature 04/02/25 - This, static, final key words and instanceof operator --> The
 Feature 06/02/25 - Object modelling and class diagram 
 
 Feature 07/02/25 - Inheritance
+
+Feature 10/02/25 - Encapsulation, Polymorphism, Interface and Abstract Class
