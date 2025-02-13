@@ -14,8 +14,10 @@ Feature 02/02/25 - Java Constructors , Instance vs Class Variable , Access MOdif
 
 Feature 04/02/25 - This, static, final key words and instanceof operator --> The this keyword refers to the current object, static makes variables/methods shared across all instances, final prevents modification, and instanceof checks an object's type at runtime. These features enhance clarity, reusability, and security in Java.
 
-Feature 06/02/25 - Object modelling and class diagram 
+Feature 06/02/25 - Object modelling and class diagram --> Object modeling is the process of designing a system using objects, their relationships, and interactions. It involves concepts like objects, classes, relationships (association, aggregation, composition, inheritance), state, and behavior. A class diagram visually represents a system’s structure.
 
-Feature 07/02/25 - Inheritance
+Feature 07/02/25 - Inheritance --> Inheritance is an OOP concept where a child class inherits properties and behaviors from a parent class, promoting code reusability. Java supports single, multilevel, hierarchical, and multiple inheritance (via interfaces). For example, a Dog class can inherit from an Animal class, allowing it to use its eat() method while defining its own bark() method. This reduces code duplication and enhances maintainability.
 
-Feature 10/02/25 - Encapsulation, Polymorphism, Interface and Abstract Class
+Feature 10/02/25 - Encapsulation, Polymorphism, Interface and Abstract Class --> Encapsulation hides data using private variables, providing access through getters and setters, ensuring data security. Polymorphism enables methods to have multiple forms via method overloading (compile-time) and method overriding (runtime). Interfaces define a contract of methods that implementing classes must define, supporting multiple inheritance. Abstract classes provide a base class with both implemented and unimplemented methods, enforcing structured code reuse.
+
+Feature 12/02/25 - Linked List --> A Linked List is a dynamic data structure where elements (nodes) are linked using pointers, unlike arrays. It comes in three types: Singly, Doubly, and Circular Linked List. In a Singly Linked List, each node contains data and a pointer to the next node. This allows efficient insertions and deletions compared to arrays, making it useful in dynamic memory applications.
