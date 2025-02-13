@@ -21,3 +21,5 @@ Feature 07/02/25 - Inheritance --> Inheritance is an OOP concept where a child c
 Feature 10/02/25 - Encapsulation, Polymorphism, Interface and Abstract Class --> Encapsulation hides data using private variables, providing access through getters and setters, ensuring data security. Polymorphism enables methods to have multiple forms via method overloading (compile-time) and method overriding (runtime). Interfaces define a contract of methods that implementing classes must define, supporting multiple inheritance. Abstract classes provide a base class with both implemented and unimplemented methods, enforcing structured code reuse.
 
 Feature 12/02/25 - Linked List --> A Linked List is a dynamic data structure where elements (nodes) are linked using pointers, unlike arrays. It comes in three types: Singly, Doubly, and Circular Linked List. In a Singly Linked List, each node contains data and a pointer to the next node. This allows efficient insertions and deletions compared to arrays, making it useful in dynamic memory applications.
+
+Feature 13/02/25 - Stack, Queue, HashSet and hashmap 
